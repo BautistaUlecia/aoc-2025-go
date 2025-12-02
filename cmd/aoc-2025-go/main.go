@@ -1,5 +1,10 @@
 package main
 
+import (
+	"aoc-2025/m/v2/internal/one"
+	"fmt"
+)
+
 func main() {
-	println("Hello from main.go aoc 2025")
+	fmt.Printf("result: %v", one.Solve("inputs/one/input.txt"))
 }
